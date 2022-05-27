@@ -162,7 +162,6 @@ if __name__ == '__main__':
   # if error occurred, try to load using tensorflow.keras load model method
   except:
     model = tf_load_model(model_path)
-  model.summary()
   print('Model loaded successfully!')
 
   # load the data
